@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information</title>
+    <!-- Link to your CSS file here -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Information</h1>
+        <div class="weather-box">
+            <h2>Weather on your location</h2>
+            <p id="location"></p>
+        </div>
+        <div class="weather-box">
+            <h2>Temperature</h2>
+            <p id="temperature"></p>
+        </div>
+        <div class="weather-box">
+            <h2>Wind</h2>
+            <p>Speed: <span id="windSpeed"></span> m/s</p>
+            <p>Direction: <span id="windDirection"></span>°</p>
+        </div>
+        <div class="image-wrapper">
+            <img id="weatherIcon" src="" alt="Weather Icon">
+        </div>
+    </div>
+
+    <!-- Link to Axios library -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Link to your JavaScript file -->
+    <script src="functions.js"></script>
+</body>
+</html>

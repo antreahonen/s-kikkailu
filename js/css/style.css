@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+
+.weather-box {
+    width: calc(100% / 3);
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.weather-box h2 {
+    margin-top: 0;
+}
